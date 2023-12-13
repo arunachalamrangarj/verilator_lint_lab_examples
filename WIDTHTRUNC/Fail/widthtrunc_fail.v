@@ -11,4 +11,4 @@ module widthtrunc_fail (
     else begin
       C = (A && B) ? 1'b1 : 1'b0;
     end
-endmodule
+endmodule : widthtrunc_fail

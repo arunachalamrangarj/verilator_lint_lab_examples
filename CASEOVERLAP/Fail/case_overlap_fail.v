@@ -13,4 +13,4 @@ module case_overlap_fail (
       2'b11: y = 1'b1;  // This is parallel case
     endcase
   end
-endmodule : case_overlap_pa
+endmodule : case_overlap_fail

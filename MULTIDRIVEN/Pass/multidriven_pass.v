@@ -18,4 +18,4 @@ module multidriven_pass (
   always @(posedge clk or negedge rst2)
     //redundant asynchronous signal "rst2", warning
     q2 <= d;
-endmodule
+endmodule : multidriven_pass

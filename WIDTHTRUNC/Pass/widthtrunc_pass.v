@@ -1,4 +1,4 @@
-module coding_width_uneq_oprnd4 (
+module widthtrunc_pass (
     input clk,
     rst,
     A,
@@ -11,4 +11,4 @@ module coding_width_uneq_oprnd4 (
     else begin
       C = (A && B) ? 1'b1 : 1'b0;
     end
-endmodule
+endmodule : widthtrunc_pass

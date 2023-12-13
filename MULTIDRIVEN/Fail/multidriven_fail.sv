@@ -19,4 +19,4 @@ module multidriven_fail (
   always @(posedge clk or negedge rst2)
     //redundant asynchronous signal "rst2", warning
     q <= d;
-endmodule
+endmodule : multidriven_fail
